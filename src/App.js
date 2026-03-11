@@ -15,16 +15,16 @@ import MainPage from './pages/MainPage';
 function App() {
   return (
     <>
-    <Router>
-<div className="App">
- <Routes>
-  <Route path="/" element={<MainPage /> } />
-  <Route path="/search" element={<SearchPage /> } />
-  <Route path="/tour" element={<TourPage /> } />
- </Routes>
-</div>
-</Router>
-</>
+      <Router>
+        <div className="App">
+          <Routes>
+            <Route path="/" element={<MainPage />} />
+            <Route path="/search" element={<SearchPage />} />
+            <Route path="/tour/:id" element={<TourPage />} /> 
+          </Routes>
+        </div>
+      </Router>
+    </>
   );
 }
 

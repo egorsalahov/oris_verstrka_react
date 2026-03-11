@@ -3,11 +3,6 @@ import React from 'react';
 const CardDescriptionSlider = () => {
   return (
     <>
-    <div className="TVHotelDescriptionText">
-              Городской отель в районе Фатих/ Беязит. Небольшие по площади
-              номера, бесплатный Wi-Fi. Предлагаются завтраки по утрам. Подойдет
-              для бюджетной поездки в Стамбул.
-    </div>
       <div className="TVHotelDescriptionSlider">
               <div className="TVHotelGalleryControl">
                 <div className="TVHotelGallerySlider">

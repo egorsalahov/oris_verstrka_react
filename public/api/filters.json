@@ -1,0 +1,12 @@
+{
+  "amenities": {
+    "tv": false,
+    "slippers": false,
+    "shower": false,
+    "airConditioner": false,
+    "miniBar": false,
+    "phone": false,
+    "heating": false,
+    "wifi": false
+  }
+}
