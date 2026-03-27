@@ -1,0 +1,408 @@
+[
+  {
+    "id": 1,
+    "title": "Grand Emir Hotel ★★★",
+    "country": "Турция",
+    "city": "Стамбул",
+    "price": 49728,
+    "nights": "6-14",
+    "dates": "15 фев - 24 фев",
+    "departureCity": "Москва",
+    "outboundDate": "15 фев",
+    "tourists": {
+      "adults": 2,
+      "children": []
+    },
+    "airline": "Уральские авиалинии",
+    "stars": 3,
+    "image": "https://static.tourvisor.ru/hotel_pics/main400/17444.jpg",
+    "roomsCount": 50,
+    "builtYear": 2010,
+    "phone": "+90 212 458 90 20",
+    "website": "https://grandemirhotel.com",
+    "amenities": {
+      "tv": true,
+      "slippers": true,
+      "shower": true,
+      "airConditioner": true,
+      "miniBar": false,
+      "phone": true,
+      "heating": true,
+      "wifi": true
+    },
+    "meals": {
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false
+    }
+  },
+  {
+    "id": 2,
+    "title": "Rixos Premium Tekirova ★★★★★",
+    "country": "Турция",
+    "city": "Кемер",
+    "price": 125430,
+    "nights": "7-11",
+    "dates": "1 фев - 8 фев",
+    "departureCity": "Москва",
+    "outboundDate": "1 фев",
+    "tourists": {
+      "adults": 2,
+      "children": [5]
+    },
+    "airline": "Turkish Airlines",
+    "stars": 5,
+    "image": "https://picsum.photos/400/200?random=2",
+    "roomsCount": 450,
+    "builtYear": 2007,
+    "phone": "+90 242 824 00 00",
+    "website": "https://rixos.com/ru/hotel-resort/rixos-premium-tekirova",
+    "amenities": {
+      "tv": true,
+      "slippers": true,
+      "shower": true,
+      "airConditioner": true,
+      "miniBar": true,
+      "phone": true,
+      "heating": true,
+      "wifi": true
+    },
+    "meals": {
+      "breakfast": true,
+      "lunch": true,
+      "dinner": true
+    }
+  },
+  {
+    "id": 3,
+    "title": "Jasmine Palace Beach Resort ★★★★",
+    "country": "Египет",
+    "city": "Хургада",
+    "price": 78450,
+    "nights": "7-10",
+    "dates": "8 фев - 15 фев",
+    "departureCity": "СПб",
+    "outboundDate": "8 фев",
+    "tourists": {
+      "adults": 1,
+      "children": [7, 10]
+    },
+    "airline": "Red Wings",
+    "stars": 4,
+    "image": "https://picsum.photos/400/200?random=3",
+    "roomsCount": 320,
+    "builtYear": 2008,
+    "phone": "+20 65 376 0000",
+    "website": "https://jasminepalacehurghada.com",
+    "amenities": {
+      "tv": true,
+      "slippers": true,
+      "shower": true,
+      "airConditioner": true,
+      "miniBar": true,
+      "phone": true,
+      "heating": false,
+      "wifi": true
+    },
+    "meals": {
+      "breakfast": true,
+      "lunch": true,
+      "dinner": true
+    }
+  },
+  {
+    "id": 4,
+    "title": "Hilton Sharjah ★★★★",
+    "country": "ОАЭ",
+    "city": "Шарджа",
+    "price": 156780,
+    "nights": "6-14",
+    "dates": "20 фев - 27 фев",
+    "departureCity": "Москва",
+    "outboundDate": "20 фев",
+    "tourists": {
+      "adults": 3,
+      "children": []
+    },
+    "airline": "Emirates",
+    "stars": 4,
+    "image": "https://picsum.photos/400/200?random=4",
+    "roomsCount": 250,
+    "builtYear": 1997,
+    "phone": "+971 6 558 2222",
+    "website": "https://www.hilton.com/en/hotels/shjhidt-hilton-sharjah",
+    "amenities": {
+      "tv": true,
+      "slippers": true,
+      "shower": true,
+      "airConditioner": true,
+      "miniBar": true,
+      "phone": true,
+      "heating": true,
+      "wifi": true
+    },
+    "meals": {
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false
+    }
+  },
+  {
+    "id": 5,
+    "title": "Phuket Marriott Resort ★★★★★",
+    "country": "Таиланд",
+    "city": "Пхукет",
+    "price": 189250,
+    "nights": "10-14",
+    "dates": "25 фев - 8 мар",
+    "departureCity": "Новосибирск",
+    "outboundDate": "25 фев",
+    "tourists": {
+      "adults": 2,
+      "children": [3, 8]
+    },
+    "stars": 5,
+    "image": "https://picsum.photos/400/200?random=5",
+    "roomsCount": 410,
+    "builtYear": 2000,
+    "phone": "+66 76 302 000",
+    "website": "https://www.marriott.com/en-us/hotels/hktmm-phuket-marriott-resort-naiyang-beach",
+    "amenities": {
+      "tv": true,
+      "slippers": true,
+      "shower": true,
+      "airConditioner": true,
+      "miniBar": true,
+      "phone": true,
+      "heating": false,
+      "wifi": true
+    },
+    "meals": {
+      "breakfast": true,
+      "lunch": true,
+      "dinner": false
+    }
+  },
+  {
+    "id": 6,
+    "title": "Sochi Beach Hotel ★★★",
+    "country": "Россия",
+    "city": "Сочи",
+    "price": 32450,
+    "nights": "6-10",
+    "dates": "12 мар - 18 мар",
+    "departureCity": "Казань",
+    "outboundDate": "12 мар",
+    "tourists": {
+      "adults": 1,
+      "children": []
+    },
+    "airline": "Аэрофлот",
+    "stars": 3,
+    "image": "https://picsum.photos/400/200?random=6",
+    "roomsCount": 180,
+    "builtYear": 2015,
+    "phone": "+7 862 296 60 60",
+    "website": "https://sochi-beach-hotel.ru",
+    "amenities": {
+      "tv": true,
+      "slippers": false,
+      "shower": true,
+      "airConditioner": false,
+      "miniBar": false,
+      "phone": true,
+      "heating": true,
+      "wifi": true
+    },
+    "meals": {
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false
+    }
+  },
+  {
+    "id": 7,
+    "title": "Coral Beach Resort ★★★★",
+    "country": "Египет",
+    "city": "Шарм-эль-Шейх",
+    "price": 69230,
+    "nights": "7-12",
+    "dates": "2 фев - 9 фев",
+    "departureCity": "Екатеринбург",
+    "outboundDate": "2 фев",
+    "tourists": {
+      "adults": 2,
+      "children": [12]
+    },
+    "airline": "Pobeda",
+    "stars": 4,
+    "image": "https://picsum.photos/400/200?random=7",
+    "roomsCount": 280,
+    "builtYear": 2010,
+    "phone": "+20 69 360 1700",
+    "website": "https://coralbeachresort.com",
+    "amenities": {
+      "tv": true,
+      "slippers": true,
+      "shower": true,
+      "airConditioner": true,
+      "miniBar": false,
+      "phone": true,
+      "heating": false,
+      "wifi": true
+    },
+    "meals": {
+      "breakfast": true,
+      "lunch": true,
+      "dinner": true
+    }
+  },
+  {
+    "id": 8,
+    "title": "Amara Premier Palace ★★★★★",
+    "country": "Турция",
+    "city": "Бодрум",
+    "price": 143280,
+    "nights": "8-14",
+    "dates": "28 фев - 7 мар",
+    "departureCity": "СПб",
+    "outboundDate": "28 фев",
+    "tourists": {
+      "adults": 1,
+      "children": [6]
+    },
+    "airline": "Azur Air",
+    "stars": 5,
+    "image": "https://picsum.photos/400/200?random=8",
+    "roomsCount": 380,
+    "builtYear": 2015,
+    "phone": "+90 252 265 00 65",
+    "website": "https://amarahotels.com/amara-premier-palace",
+    "amenities": {
+      "tv": true,
+      "slippers": true,
+      "shower": true,
+      "airConditioner": true,
+      "miniBar": true,
+      "phone": true,
+      "heating": true,
+      "wifi": true
+    },
+    "meals": {
+      "breakfast": true,
+      "lunch": true,
+      "dinner": true
+    }
+  },
+  {
+    "id": 9,
+    "title": "Desert Rose Resort ★★★★",
+    "country": "ОАЭ",
+    "city": "Рас-эль-Хайма",
+    "price": 178950,
+    "nights": "6-12",
+    "dates": "10 мар - 16 мар",
+    "departureCity": "Москва",
+    "outboundDate": "10 мар",
+    "tourists": {
+      "adults": 4,
+      "children": []
+    },
+    "airline": "Flydubai",
+    "stars": 4,
+    "image": "https://picsum.photos/400/200?random=9",
+    "roomsCount": 215,
+    "builtYear": 2012,
+    "phone": "+971 7 204 8888",
+    "website": "https://desert-rose-hotel.com",
+    "amenities": {
+      "tv": true,
+      "slippers": true,
+      "shower": true,
+      "airConditioner": true,
+      "miniBar": true,
+      "phone": true,
+      "heating": true,
+      "wifi": true
+    },
+    "meals": {
+      "breakfast": true,
+      "lunch": false,
+      "dinner": true
+    }
+  },
+  {
+    "id": 10,
+    "title": "Napa Garden Hotel ★★★",
+    "country": "Турция",
+    "city": "Алушта",
+    "price": 45670,
+    "nights": "7-10",
+    "dates": "5 мар - 12 мар",
+    "departureCity": "Новосибирск",
+    "outboundDate": "5 мар",
+    "tourists": {
+      "adults": 2,
+      "children": []
+    },
+    "airline": "Nordwind",
+    "stars": 3,
+    "image": "https://picsum.photos/400/200?random=10",
+    "roomsCount": 95,
+    "builtYear": 2005,
+    "phone": "+90 242 565 00 00",
+    "website": "https://napagardenhotel.com",
+    "amenities": {
+      "tv": true,
+      "slippers": false,
+      "shower": true,
+      "airConditioner": true,
+      "miniBar": false,
+      "phone": true,
+      "heating": true,
+      "wifi": true
+    },
+    "meals": {
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false
+    }
+  },
+  {
+    "id": 11,
+    "title": "Sun Beach Resort ★★★★",
+    "country": "Турция",
+    "city": "Анталья",
+    "price": 82340,
+    "nights": "6-7",
+    "dates": "1 фев - 7 фев",
+    "departureCity": "Москва",
+    "outboundDate": "1 фев",
+    "tourists": {
+      "adults": 1,
+      "children": [5]
+    },
+    "airline": "Pobeda",
+    "stars": 4,
+    "image": "https://picsum.photos/400/200?random=11",
+    "roomsCount": 320,
+    "builtYear": 2009,
+    "phone": "+90 242 715 75 00",
+    "website": "https://sunbeachresortantalya.com",
+    "amenities": {
+      "tv": true,
+      "slippers": true,
+      "shower": true,
+      "airConditioner": true,
+      "miniBar": false,
+      "phone": true,
+      "heating": true,
+      "wifi": true
+    },
+    "meals": {
+      "breakfast": true,
+      "lunch": true,
+      "dinner": false
+    }
+  }
+]
