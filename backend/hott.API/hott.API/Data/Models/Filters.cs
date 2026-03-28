@@ -1,5 +1,8 @@
-﻿namespace hott.API.Data.Models
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace hott.API.Data.Models
 {
+    [Owned]
     public class Filters
     {
         public bool Tv { get; set; }

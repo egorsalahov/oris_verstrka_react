@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using hott.API.Data;
+﻿using hott.API.Data;
 using hott.API.Data.Models;
+using hott.API.EF;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace hott.API.Controllers
 {
@@ -8,6 +10,12 @@ namespace hott.API.Controllers
     [Route("api/[controller]")] // Это базовый путь: api/tour
     public class TourController : ControllerBase
     {
+        private readonly AppDbContext _context;
+        public TourController(AppDbContext context)
+        {
+            _context = context;
+        }
+
         //api/tour
         [HttpGet]
         public ActionResult<List<Hotel>> GetAllHotels()
@@ -86,5 +94,85 @@ namespace hott.API.Controllers
             if (tour == null) return NotFound();
             return Ok(tour);
         }
+
+        //create
+        [HttpPost]
+        public async Task<ActionResult<Hotel>> Create(Hotel hotel)
+        {
+            _context.Hotels.Add(hotel);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetById), new { id = hotel.Id }, hotel);
+        }
+
+        //delete
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Hotel>> Delete(int id)
+        {
+            var hotel = await _context.Hotels.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (hotel == null) return NotFound();
+
+            _context.Hotels.Remove(hotel);
+
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        //update
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, Hotel updatedHotel)
+        {
+            var hotel = await _context.Hotels.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (hotel == null) return NotFound();
+
+            hotel.Title = updatedHotel.Title;
+            hotel.Country = updatedHotel.Country;
+            hotel.City = updatedHotel.City;
+            hotel.Price = updatedHotel.Price;
+            hotel.Nights = updatedHotel.Nights;
+            hotel.Dates = updatedHotel.Dates;
+            hotel.DepartureCity = updatedHotel.DepartureCity;
+            hotel.OutboundDate = updatedHotel.OutboundDate;
+            hotel.Airline = updatedHotel.Airline;
+            hotel.Stars = updatedHotel.Stars;
+            hotel.Image = updatedHotel.Image;
+            hotel.RoomsCount = updatedHotel.RoomsCount;
+            hotel.BuiltYear = updatedHotel.BuiltYear;
+            hotel.Phone = updatedHotel.Phone;
+            hotel.Website = updatedHotel.Website;
+
+
+            hotel.Tourists.Adults = updatedHotel.Tourists.Adults;
+            hotel.Tourists.Childrens = updatedHotel.Tourists.Childrens;
+
+            hotel.Amenities.Tv = updatedHotel.Amenities.Tv;
+            hotel.Amenities.Slippers = updatedHotel.Amenities.Slippers;
+            hotel.Amenities.Shower = updatedHotel.Amenities.Shower;
+            hotel.Amenities.AirConditioner = updatedHotel.Amenities.AirConditioner;
+            hotel.Amenities.MiniBar = updatedHotel.Amenities.MiniBar;
+            hotel.Amenities.Phone = updatedHotel.Amenities.Phone;
+            hotel.Amenities.Heating = updatedHotel.Amenities.Heating;
+            hotel.Amenities.Wifi = updatedHotel.Amenities.Wifi;
+
+            hotel.Meals.Breakfast = updatedHotel.Meals.Breakfast;
+            hotel.Meals.Lunch = updatedHotel.Meals.Lunch;
+            hotel.Meals.Dinner = updatedHotel.Meals.Dinner;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!_context.Hotels.Any(e => e.Id == id)) return NotFound();
+                else throw;
+            }
+
+            return NoContent(); 
+        }
+
     }
 }
